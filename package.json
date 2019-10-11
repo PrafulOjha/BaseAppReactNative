@@ -1,0 +1,55 @@
+{
+  "name": "Pann",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.1",
+    "@react-native-community/netinfo": "^4.2.1",
+    "axios": "^0.19.0",
+    "moment": "^2.24.0",
+    "native-base": "^2.13.7",
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-native": "0.59.9",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-form-validator": "^0.2.0",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-image-picker": "^1.1.0",
+    "react-native-image-slider": "^2.0.3",
+    "react-native-media-meta": "0.0.10",
+    "react-native-permissions": "^1.2.0",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-screens": "^2.0.0-alpha.3",
+    "react-native-sideswipe": "^1.5.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-video": "^5.0.2",
+    "react-navigation": "^4.0.0",
+    "react-navigation-drawer": "^2.1.0",
+    "react-navigation-stack": "^1.5.3",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "watchman": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.0",
+    "@babel/runtime": "7.6.0",
+    "babel-jest": "24.9.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.56.0",
+    "react-test-renderer": "^16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts"
+    ]
+  }
+}
